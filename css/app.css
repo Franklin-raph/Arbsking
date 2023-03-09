@@ -16407,3 +16407,36 @@ html {
 #visionIcon:before {
     display: inline;
 }
+
+.user-img {
+    width: 15%;
+}
+
+.playingTeams {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+td {
+    /* padding: 0 !important; */
+    font-size: 14px !important;
+}
+
+@media screen and (max-width:1200px) {
+    .user-img {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .user-img {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .user-img {
+        width: 100% !important;
+    }
+}
