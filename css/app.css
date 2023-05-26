@@ -11167,6 +11167,10 @@ html {
     margin-right: .375rem
 }
 
+.__cf_email__{
+    color: #fff;
+}
+
 .reunir-navbar {
     left: 0;
     top: 0;
@@ -11185,7 +11189,7 @@ html {
 
 .reunir-navbar .logo-section .logo-title img {
     margin-right: 1.563rem;
-    width: 3.125rem
+    width: 5rem
 }
 
 .reunir-navbar .nav-main .navbar-nav .nav-item {
